@@ -1,0 +1,48 @@
+/* Post.css */
+
+.post-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.post-description {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+}
+
+.post-author p {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.post-like-button {
+  padding: 5px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-like-button:hover {
+  background-color: #2980b9;
+}
+
+.post-likes {
+  margin-top: 10px;
+}

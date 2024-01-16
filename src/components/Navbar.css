@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Change to space-between for spacing between links and user info */
+  align-items: center;
+  padding: 2px;
+  background-color: #3498db; /* You can change the color */
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 5px; /* Adjust the margin as needed */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e74c3c;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info p {
+  margin: 0 10px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease; /* Adding a simple transform animation */
+}
+
+.user-info img:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+/* Add the following rule to push user-info to the right */
+.navbar-container > *:last-child {
+  margin-left: auto;
+}
+
+.logout-button {
+  margin-left: 10px; /* Adjust the margin-left as needed */
+  padding: 10px;
+  background-color: #e74c3c; /* Button color for logout */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adding a simple transition effect */
+}
+
+.logout-button:hover {
+  background-color: #c0392b; /* Change the button color on hover */
+}
